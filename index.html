@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <title>Character Tracker</title>
+</head>
+<body>
+    <div id="title-bar">
+        <h1>Character Tracker</h1>
+    </div>
+    <div id="player-box">
+        <h1 id="new-character-button">New Character</h1>
+        
+    </div>
+    <div id="player-box-footer">
+        <h1 onclick="SavePlayers()">Save Players</h1>
+        <h1 onclick="LoadPlayers()">Load Players</h1>
+    </div>
+    <div id="edit-box">
+        <h1 id="edit-text">Edit Character</h1>
+        <p>Character Name: </p><input type="text" id="input-character-name">
+        <p>Player Name: </p><input type="text" id="input-player-name">
+        <p>AC: </p><input type="text" id="input-ac">
+        <p>HP: </p><input type="text" id="input-hp">
+        <p>Passive Perception: </p><input type="text" id="input-pp">
+        <br><br>
+        <a id="edit-save-button">Save</a>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

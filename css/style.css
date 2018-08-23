@@ -1,0 +1,209 @@
+/* Setup */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title Bar */
+#title-bar {
+    background-color: black;
+    padding: 1rem;
+}
+
+#title-bar h1 {
+    color: #DF0000;
+    font-size: 3rem;
+    text-align: center;
+    border: 0.2rem solid #DF0000;
+    border-radius: 2rem;
+    width: 90%;
+    margin: 0rem auto;
+}
+
+/* Players Box */
+#player-box {
+    background-color: #f4f4f4;
+    color: black;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    align-items: top;
+}
+
+#new-character-button {
+    color: #9D0A0E;
+    text-align: center;
+    border: 0.2rem solid #9D0A0E;
+    border-radius: 1rem;
+    font-size: 3rem;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 1rem auto;
+}
+
+#player-box-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+#player-box-footer h1 {
+    color: #9D0A0E;
+    text-align: center;
+    border: 0.2rem solid #9D0A0E;
+    border-radius: 1rem;
+    font-size: 2.2rem;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 1rem auto;
+}
+
+/* Player */
+.player {
+    background-color: gray;
+    width: 80%;
+    border: 0.2rem solid #DF0000;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.player h1{
+    color: #9D0A0E;
+    font-size: 3rem;
+}
+
+.player h3 {
+    color: #9D0A0E;
+    font-size: 2rem;
+}
+
+.player p {
+    color: white;
+    font-size: 2rem;
+}
+
+.player a {
+    color: #9D0A0E;
+    display: block;
+    text-align: center;
+    border: 0.2rem solid #9D0A0E;
+    font-size: 2rem;
+    border-radius: 1rem;
+    width: fit-content;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.player-icons {
+    font-size: 5rem;
+}
+
+.player-ac {
+    display: inline-block;
+    margin: 0.5rem;
+    min-width: 5rem;
+    min-height: 5rem;
+    text-align: center;
+
+    background-image: url('../imgs/ArmorIcon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.player-hp {
+    display: inline-block;
+    margin: 0.5rem;
+    min-width: 5rem;
+    min-height: 5rem;
+    text-align: center;
+
+    background-image: url('../imgs/HeartIcon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.player-pp {
+    display: inline-block;
+    margin: 0.5rem;
+    min-width: 5rem;
+    min-height: 5rem;
+    text-align: center;
+
+    background-image: url('../imgs/EyeIcon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Edit Box */
+#edit-box {
+    background-color: gray;
+    width: 80%;
+    border: 0.2rem solid #DF0000;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+#edit-box h1 {
+    color: #9D0A0E;
+    font-size: 3rem;
+}
+
+#edit-box p {
+    color: #9D0A0E;
+    font-size: 2rem;
+}
+
+#edit-save-button {
+    text-align: center;
+    margin: 1rem auto;
+    width: 40%;
+    border: 0.2rem solid #9D0A0E;
+    border-radius: 1rem;
+    background-color: gray;
+    color: #9D0A0E;
+    font-size: 2rem;
+    display: block;
+}
+
+/* Button Events */
+#edit-save-button:hover {
+    background-color: #9D0A0E;
+    color: gray;
+    cursor: pointer;
+}
+
+.player a:hover {
+    color: gray;
+    background-color: #9D0A0E;
+    cursor: pointer;
+}
+
+#new-character-button:hover {
+    color: gray;
+    background-color: #9D0A0E;
+    cursor: pointer;
+}
+
+#player-box-footer h1:hover {
+    color: gray;
+    background-color: #9D0A0E;
+    cursor: pointer;
+}
