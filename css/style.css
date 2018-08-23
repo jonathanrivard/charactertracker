@@ -38,6 +38,9 @@ body {
 #player-box {
     background-color: #f4f4f4;
     color: black;
+}
+
+#player-box-inside {
     display: grid;
     grid-template-columns: 100%;
     justify-items: center;
@@ -206,4 +209,31 @@ body {
     color: gray;
     background-color: #9D0A0E;
     cursor: pointer;
+}
+
+/* Media Query */
+@media only screen and (min-width: 800px){
+    #player-box-inside {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 650px){
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1000px){
+    html {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 3000px){
+    html {
+        font-size: 18px;
+    }
 }

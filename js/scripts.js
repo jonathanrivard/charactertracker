@@ -72,7 +72,7 @@ class Player{
         //Create DIV
         let div = document.createElement("div");
         div.setAttribute('class', 'player');
-        document.getElementById('player-box').appendChild(div);
+        document.getElementById('player-box-inside').appendChild(div);
         this.superDiv = div;
 
         //Create Character Name Header
